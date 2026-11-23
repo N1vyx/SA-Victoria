@@ -1,69 +1,65 @@
 
 # Devolutiva formativa — Atividade 02 da SA
 
-**Estudante:** Kauan Weiss  
+**Estudante:** Victoria  
 **Turma:** São Bento do Sul — Manhã  
 **Unidade Curricular:** Programação de Aplicativos  
-**Projeto:** Tema divergente — Transporte (Python) / Fábrica de chocolate (HTML)  
-**Repositório:** https://github.com/kauanweiss87-pixel/SA-Kauan  
-**Arquivos observados:** `codigo/app.py`, `interface/index.html` e `interface/style.css`  
+**Projeto:** Tema ainda não especificado  
+**Repositório:** https://github.com/N1vyx/SA-Victoria  
+**Arquivos observados:** `README.md`, `codigo/app.py` e arquivos da pasta `interface/`  
 **Data da verificação:** 23/11/2026  
 **Escopo:** evidências técnicas dos critérios CT6 e CT7, sem atribuição de nota numérica.
 
 ## Situação atual do projeto
 
-Há duas propostas diferentes no repositório. O arquivo `codigo/app.py` implementa um servidor HTTP com SQLite para um aplicativo de transporte. Já a interface HTML/CSS apresenta uma fábrica de chocolate com informações institucionais, lista de produtos e contato, mas sem formulários ou ações de negócio. Essa diferença impede demonstrar uma única solução consistente da SA no estado atual.
+O README identifica a estudante e a turma M1, mas não registra claramente o projeto escolhido. Os arquivos de implementação Python, HTML, CSS e JavaScript permanecem vazios. Não foi possível observar uma interface funcional na versão consultada.
 
 ## Pontos positivos identificados
 
-- O arquivo Python contém funções para estimar tarifas, selecionar motoristas, solicitar corridas, alterar situações e consultar dados no SQLite.
-- Há uma tentativa de organizar API, tratamento de erros e armazenamento usando a biblioteca padrão do Python.
-- O HTML da fábrica possui títulos, listas e organização legível.
-- O CSS utiliza estilos separados para títulos, textos, listas e rodapé.
+- O repositório individual foi criado e mantém a estrutura básica da SA.
+- A identificação da estudante e da turma foi registrada no README.
 
 ## O que precisa ser corrigido ou concluído
 
-### 1. Definir um único projeto para a entrega
+### 1. Escolher e identificar o projeto
 
-O Python trata de *transporte* e a interface mostra *fábrica de chocolate*. **Como melhorar:** decidir qual é o projeto da SA e fazer código e interface representarem o mesmo problema. Não é necessário refazer tudo: pode aproveitar a solução que pretende continuar.
+**Como melhorar:** registrar no README qual problema será resolvido, quem utilizará o sistema e qual será a primeira funcionalidade.
 
-### 2. Tornar a interface funcional
+### 2. Criar uma interface inicial
 
-A página da fábrica é informativa e não permite cadastrar produção, consultar estoque ou executar outra operação do sistema. **Como melhorar:** se escolher chocolate, adicionar ao menos um formulário com validação e resultado; se escolher transporte, preparar uma página para origem, destino, categoria e estimativa.
+**Como melhorar:** construir uma tela relacionada ao tema escolhido, com título, campos necessários, botão e resultado apresentado ao usuário.
 
-### 3. Corrigir a instrução de execução do Python
+### 3. Implementar uma lógica simples
 
-O comentário de `codigo/app.py` informa `python server.py`, mas o arquivo publicado se chama `app.py`. **Como melhorar:** corrigir o comando no cabeçalho e no README e verificar os caminhos de arquivos servidos.
+`codigo/app.py` está vazio. **Como melhorar:** usar funções e condições para tratar a entrada do usuário, sem tentar implementar todas as funcionalidades do projeto de uma vez.
 
-### 4. Conferir o diretório de arquivos estáticos
+### 4. Documentar as funções e os testes
 
-O servidor Python aponta para uma pasta `static` ao lado do código, enquanto a página publicada está na pasta `interface`. **Como melhorar:** adequar os caminhos à estrutura real ou organizar os arquivos na pasta esperada.
+**Como melhorar:** explicar as entradas esperadas, os resultados e como executar os arquivos.
 
 ## Oportunidades de melhoria
 
-- Adicionar funções curtas e reutilizáveis relacionadas ao tema definitivo.
-- Registrar no README quais ações o usuário consegue executar e quais ainda são planejadas.
-- Testar erros de entrada e manter a interface alinhada aos nomes utilizados no Python.
+- Escolher uma funcionalidade pequena para concluir e testar.
+- Separar a estrutura visual, os estilos e as ações em arquivos próprios.
+- Tratar entradas inválidas com mensagens compreensíveis.
 
 ## Testes recomendados
 
-1. Confirmar qual é o tema final com o professor.
-2. Executar o Python pelo nome correto do arquivo.
-3. Verificar se o HTML e o CSS são encontrados pelo servidor, caso haja integração.
-4. Fazer uma operação completa do tema escolhido usando a interface.
-5. Testar entradas vazias, quantidades negativas ou locais inválidos, conforme o projeto.
+1. Informar o tema do sistema.
+2. Abrir a interface no ambiente de apresentação.
+3. Executar uma ação que produza resultado visível.
+4. Testar campos vazios e valores inválidos.
+5. Confirmar que tudo foi enviado ao repositório.
 
 ## Prioridades para a próxima versão
 
-1. **Escolher e manter um único tema em todos os arquivos.**
-2. **Construir pelo menos uma operação funcional na interface.**
-3. **Corrigir instruções e caminhos de execução.**
-4. **Documentar e demonstrar o fluxo completo da funcionalidade.**
+1. **Definir tema e objetivo da SA.**
+2. **Criar a primeira tela funcional.**
+3. **Preencher o código Python com uma operação verificável.**
+4. **Documentar a execução e os testes.**
 
 ## Mensagem final
 
-Kauan, há trabalho técnico tanto no Python quanto na apresentação HTML. O principal passo agora é reunir esses esforços em um único sistema, de modo que a interface represente o mesmo problema resolvido pelo código.
+Victoria, a estrutura do repositório já está disponível. Agora é necessário publicar uma primeira implementação funcional para que seus conhecimentos possam ser observados nos critérios da atividade.
 
 ---
-
-
